@@ -1,0 +1,217 @@
+*{
+    margin: 0%;
+}
+
+body{
+    background:#323846;
+    color: white;
+    font-family: Verdana;
+}
+
+.card__container__blue{
+    height: 400px;
+    margin-top: 20vh;
+    margin-left: 40vh;
+    display: inline-block;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    position:  relative;
+    font-weight: 350;
+    background: linear-gradient(.25turn,#808dd9, 89%, #88d8e2);
+    box-shadow: 10px 5px 5px black;
+    bottom: 30px;
+}
+.article__title__plan-blue{
+    margin-top: 50px;
+    text-shadow: 1px 1px 1px #000;
+}
+.article__title__price-blue::before{
+    content: '$';
+    font-size: 26px;
+}
+.article__title__price-blue{
+    margin-top: 10px;
+    font-size: 100px;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: 550;
+}
+.article__title__middle-blue::before{
+    content: '\2014';
+    font-size: 40px;
+    text-shadow: none;
+}
+.article__title__middle-blue{
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 26px;
+}
+.article__title__middle-blue::after{
+    content: '\2014';
+    font-size: 40px;
+    text-shadow: none;
+}
+.free__stuff-blue{
+    text-shadow: 1px 1px 1px #000;
+    margin-top: 20px;
+    line-height: 26px;
+}
+.card__button__blue{
+    position: relative;
+    top: 5px;
+    left: 87px;
+    position: relative;
+    top: 3px;
+    left: 75px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-bottom-right-radius: 14px;
+    border-top-left-radius: 14px;
+    font-style: Verdana;
+    font-size: 18px;
+    
+}
+.card__button__blue:hover{
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.card__container__red{
+    height: 425px;
+    margin-top: 20vh;
+    margin-left: 20px;
+    display: inline-block;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    line-height: 26px;
+    background: linear-gradient(.25turn,#ff5b32, 89%, #ff5769);
+    position: relative;
+    bottom: 50px;
+    box-shadow: 10px 5px 5px black;
+}
+.article__title__plan-red{
+    margin-top: 50px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.article__title__price-red::before{
+    content: '$';
+    font-size: 26px;
+}
+.article__title__price-red{
+    margin-top: 60px;
+    font-size: 100px;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: 550;
+}
+.article__title__middle-red::before{
+    content: '\2014';
+    font-size: 40px;
+    text-shadow: none;
+}
+.article__title__middle-red{
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 26px;
+}
+.article__title__middle-red::after{
+    content: '\2014';
+    font-size: 40px;
+    text-shadow: none;
+}
+.free__stuff-red{
+    text-shadow: 1px 1px 1px #000;
+    margin-top: 20px;
+    line-height: 26px;
+}
+.card__button__red{
+    position: relative;
+    top: 53px;
+    left: 75px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-bottom-right-radius: 14px;
+    border-top-left-radius: 14px;
+    font-style: Verdana;
+    font-size: 18px;
+    
+}
+.card__button__red:hover{
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.card__container__green{
+    height: 400px;
+    margin-top: 20vh;
+    margin-left: 20px;
+    display: inline-block;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    background: linear-gradient(.25turn,#80b948, 89%,#04a094);
+    box-shadow: 10px 5px 5px black;
+    position: relative;
+    bottom: 30px;
+    font-size: 18px;
+}
+
+.article__title__plan-green{
+    margin-top: 50px;
+    text-shadow: 1px 1px 1px #000;
+}
+.article__title__price-green::before{
+    content: '$';
+    font-size: 26px;
+}
+.article__title__price-green{
+    margin-top: 10px;
+    font-size: 100px;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: 550;
+}
+.article__title__middle-green::before{
+    content: '\2014';
+    font-size: 40px;
+    text-shadow: none;
+}
+.article__title__middle-green{
+    margin-top: 10px;
+    font-size: 26px;
+    text-shadow: 1px 1px 1px #000;
+
+}
+.article__title__middle-green::after{
+    content: '\2014';
+    font-size: 40px;
+    text-shadow: none;
+    
+}
+.free__stuff-green{
+    text-shadow: 1px 1px 1px #000;
+    margin-top: 20px;
+    line-height: 26px;
+}
+.card__button__green{
+    position: relative;
+    left: 75px;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-bottom-right-radius: 14px;
+    border-top-left-radius: 14px;
+    font-style: Verdana;
+    font-size: 18px;
+}
+
+.card__button__green:hover{
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    
+}
