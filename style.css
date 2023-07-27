@@ -74,8 +74,12 @@ body{
 }
 .card__button__blue:hover{
     cursor: pointer;
-    width: 100%;
-    text-align: center;
+    width: 232px;
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    left: -0px;
+    border-bottom-left-radius: 14px;
+
 }
 
 .card__container__red{
@@ -100,12 +104,14 @@ body{
 .article__title__price-red::before{
     content: '$';
     font-size: 26px;
+
 }
 .article__title__price-red{
     margin-top: 60px;
     font-size: 100px;
     text-shadow: 1px 1px 1px #000;
     font-weight: 550;
+    z-index: -1;
 }
 .article__title__middle-red::before{
     content: '\2014';
@@ -142,8 +148,11 @@ body{
 }
 .card__button__red:hover{
     cursor: pointer;
-    width: 100%;
-    text-align: center;
+    width: 232px;
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    left: -0px;
+    border-bottom-left-radius: 14px;
 }
 
 .card__container__green{
@@ -211,7 +220,10 @@ body{
 
 .card__button__green:hover{
     cursor: pointer;
-    width: 100%;
-    text-align: center;
+    width: 232px;
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    left: -0px;
+    border-bottom-left-radius: 14px;
     
 }
